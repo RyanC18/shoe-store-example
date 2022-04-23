@@ -7,6 +7,7 @@ body {
     padding: 0;
     background: #393939;
     color: white;
+    font-family: sans-serif;
 }
 
 .hero {
@@ -136,6 +137,22 @@ ul li {
 .copyright {
     text-align: center;
 }
+
+.quick-links {
+    text-align: center;
+}
+
+.policies {
+    text-align: center;
+}
+
+.quick-link-header {
+    margin-left: 40px;
+}
+
+.policy-header {
+    margin-left: 40px;
+}
 @media (max-width: 420px) {
     .toggle-button {
         display: flex;
@@ -167,4 +184,8 @@ ul li {
     .navbar-links.active {
         display: flex;
     }
+}
+
+@media (min-width: 820px) {
+
 }
